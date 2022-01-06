@@ -1,6 +1,6 @@
 import { Map } from "immutable";
 
-const initialState = Map({ users: [], total: [], isLoading: false });
+const initialState = Map({ users: [], total: []});
 
 const usersReducer = (state = initialState, action) => {
   switch (action.type) {
